@@ -1,0 +1,233 @@
+/* Reset some basic elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Main Container */
+.container {
+    width: 85%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.navbar .logo {
+    font-size: 1.8em;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .nav-links li {
+    display: inline;
+}
+
+.navbar .nav-links li a {
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar .nav-links li a:hover {
+    color: #3498db;
+}
+
+/* Header Styles */
+.header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #3498db;
+    color: white;
+}
+
+.header h1 {
+    font-size: 3em;
+}
+
+.header p {
+    font-size: 1.5em;
+}
+
+.header .cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: white;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
+
+.header .cta-button:hover {
+    background-color: #2980b9;
+    color: white;
+}
+
+/* Intro Section */
+.intro {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1.2em;
+}
+
+/* Why Learn Java Section */
+.why-java {
+    margin-top: 50px;
+}
+
+.why-java h2 {
+    text-align: center;
+    font-size: 2.2em;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    width: 23%;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    font-size: 1.4em;
+    color: #2c3e50;
+}
+
+/* Courses Section */
+.courses {
+    margin-top: 50px;
+}
+
+.courses h2 {
+    text-align: center;
+    font-size: 2.2em;
+    margin-bottom: 30px;
+}
+
+.course-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.course-item {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.course-item h3 {
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2.2em;
+    margin-bottom: 30px;
+}
+
+.testimonial-item {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-left: 5px solid #3498db;
+}
+
+.testimonial-item p {
+    font-style: italic;
+}
+
+/* Enroll Section */
+.enroll {
+    margin-top: 50px;
+    padding: 40px;
+    background-color: #3498db;
+    text-align: center;
+    color: white;
+}
+
+.enroll .cta-button {
+    margin-top: 20px;
+    background-color: white;
+    color: #3498db;
+    padding: 10px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.enroll .cta-button:hover {
+    background-color: #2980b9;
+    color: white;
+}
+
+/* Contact Section */
+.contact {
+    margin-top: 50px;
+    padding: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.2em;
+    margin-bottom: 30px;
+}
+
+.contact p {
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f0f2f5;
+    color: #777;
+}
